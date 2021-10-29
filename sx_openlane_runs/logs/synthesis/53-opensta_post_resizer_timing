@@ -1,0 +1,447 @@
+OpenROAD 1 fb8ae93b6c7a5eb0e6fac83360a8a48d76c41885
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openLANE_flow/designs/axmul/runs/run1/tmp/merged_unpadded.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/axmul/runs/run1/tmp/merged_unpadded.lef at line 68110.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openLANE_flow/designs/axmul/runs/run1/tmp/merged_unpadded.lef
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__tapvpwrvgnd_1 has no liberty cell.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 51978, instance ANTENNA_input1_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 51983, net ANTENNA_input1_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 51985, net ANTENNA_input1_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 51988, net ANTENNA_input1_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 51995, instance ANTENNA_input2_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52000, net ANTENNA_input2_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52002, net ANTENNA_input2_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52005, net ANTENNA_input2_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52012, instance ANTENNA_input3_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52017, net ANTENNA_input3_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52023, net ANTENNA_input3_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52030, instance ANTENNA_input4_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52035, net ANTENNA_input4_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52037, net ANTENNA_input4_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52042, net ANTENNA_input4_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52048, instance ANTENNA_input5_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52053, net ANTENNA_input5_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52056, net ANTENNA_input5_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52060, net ANTENNA_input5_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52066, instance ANTENNA_input6_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52071, net ANTENNA_input6_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52075, net ANTENNA_input6_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52082, instance ANTENNA_input7_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52087, net ANTENNA_input7_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52089, net ANTENNA_input7_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52094, net ANTENNA_input7_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52101, instance ANTENNA_input8_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52106, net ANTENNA_input8_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52110, net ANTENNA_input8_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52117, instance ANTENNA_input9_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52122, net ANTENNA_input9_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52124, net ANTENNA_input9_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52131, net ANTENNA_input9_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52138, instance ANTENNA_input10_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52143, net ANTENNA_input10_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52147, net ANTENNA_input10_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52154, instance ANTENNA_input11_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52159, net ANTENNA_input11_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52161, net ANTENNA_input11_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52165, net ANTENNA_input11_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52171, instance ANTENNA_input12_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52176, net ANTENNA_input12_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52183, net ANTENNA_input12_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52189, instance ANTENNA_input13_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52194, net ANTENNA_input13_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52196, net ANTENNA_input13_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52200, net ANTENNA_input13_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52207, instance ANTENNA_input14_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52212, net ANTENNA_input14_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52214, net ANTENNA_input14_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52217, net ANTENNA_input14_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52224, instance ANTENNA_input15_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52229, net ANTENNA_input15_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52231, net ANTENNA_input15_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52234, net ANTENNA_input15_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52241, instance ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52246, net ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52248, net ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52249, net ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52254, net ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52565, net ANTENNA__279__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 52762, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 53139, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 53388, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 53519, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 53791, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 54032, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 54167, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 54574, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 55637, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56097, net ANTENNA__182__B2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56400, instance ANTENNA__201__A1 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56403, instance ANTENNA__300__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56404, instance ANTENNA__272__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56405, instance ANTENNA__211__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56411, net ANTENNA__201__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56414, net ANTENNA__300__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56415, net ANTENNA__272__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56416, net ANTENNA__211__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56439, net ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56440, net ANTENNA__309__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56446, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56459, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56462, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56479, net ANTENNA__211__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56481, net ANTENNA__272__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56482, net ANTENNA__300__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56485, net ANTENNA__201__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56508, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56591, net ANTENNA__273__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56869, instance ANTENNA__279__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56872, instance ANTENNA__187__C not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56876, net ANTENNA__279__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56879, net ANTENNA__187__C not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56886, net ANTENNA__279__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56891, net ANTENNA__278__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56902, net ANTENNA__279__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56908, net ANTENNA__187__C not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 56913, net ANTENNA__279__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57068, instance ANTENNA__282__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57069, instance ANTENNA__209__A2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57071, instance ANTENNA__187__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57077, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57078, net ANTENNA__209__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57080, net ANTENNA__187__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57090, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57091, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57092, net ANTENNA__281__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57102, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57104, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57109, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57123, net ANTENNA__187__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57127, net ANTENNA__209__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57130, net ANTENNA__282__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57221, instance ANTENNA__203__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57222, instance ANTENNA__284__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57226, instance ANTENNA__181__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57228, instance ANTENNA__301__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57232, net ANTENNA__203__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57233, net ANTENNA__284__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57237, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57239, net ANTENNA__301__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57252, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57253, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57254, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57255, net ANTENNA__301__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57312, net ANTENNA__301__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57315, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57319, net ANTENNA__284__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57320, net ANTENNA__203__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57395, instance ANTENNA__286__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57396, instance ANTENNA__187__D not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57402, net ANTENNA__286__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57403, net ANTENNA__187__D not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57411, net ANTENNA__285__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57432, net ANTENNA__187__D not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57434, net ANTENNA__286__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57475, net ANTENNA__279__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57476, net ANTENNA__282__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57548, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57549, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57696, net ANTENNA__295__A2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57736, instance ANTENNA__317__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57737, instance ANTENNA__204__A2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57739, instance ANTENNA__215__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57740, instance ANTENNA__298__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57747, net ANTENNA__317__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57748, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57750, net ANTENNA__215__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57751, net ANTENNA__298__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57766, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57767, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57768, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57769, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57770, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57771, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57790, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57799, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57815, net ANTENNA__298__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57816, net ANTENNA__215__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57820, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57821, net ANTENNA__317__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57860, instance ANTENNA__212__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57861, instance ANTENNA__300__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57864, instance ANTENNA__201__B2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57866, instance ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57871, net ANTENNA__212__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57872, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57875, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57877, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57890, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57891, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57892, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57893, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57908, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57913, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57916, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57922, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57926, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57928, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57931, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57933, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57944, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57949, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57952, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57953, net ANTENNA__212__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 57996, net ANTENNA__301__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58100, instance ANTENNA__181__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58103, instance ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58107, net ANTENNA__181__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58110, net ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58120, net ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58121, net ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58133, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58142, net ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58146, net ANTENNA__181__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58170, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58195, net ANTENNA__181__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58314, instance ANTENNA__314__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58316, instance ANTENNA__309__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58321, net ANTENNA__314__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58323, net ANTENNA__309__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58333, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58337, net ANTENNA__309__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58346, net ANTENNA__309__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58350, net ANTENNA__314__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58398, net ANTENNA__201__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58475, net ANTENNA__181__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58476, net ANTENNA__282__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58547, instance ANTENNA__321__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58548, instance ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58554, net ANTENNA__321__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58555, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58567, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58568, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58569, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58570, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58591, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58593, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58621, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58622, net ANTENNA__321__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58626, instance ANTENNA__314__C not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58628, instance ANTENNA__318__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58629, instance ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58635, net ANTENNA__314__C not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58637, net ANTENNA__318__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58638, net ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58649, net ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58658, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58659, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58660, net ANTENNA__314__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58670, net ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58687, net ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58688, net ANTENNA__318__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58690, net ANTENNA__314__C not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58867, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58936, net ANTENNA__314__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58987, instance ANTENNA__216__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58990, instance ANTENNA__203__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58991, instance ANTENNA__182__B2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58994, instance ANTENNA__320__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 58998, net ANTENNA__216__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59001, net ANTENNA__203__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59002, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59005, net ANTENNA__320__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59018, net ANTENNA__203__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59028, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59037, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59038, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59039, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59043, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59052, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59054, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59085, net ANTENNA__320__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59093, net ANTENNA__182__B2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59094, net ANTENNA__203__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59098, net ANTENNA__216__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59317, instance ANTENNA__211__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59319, instance ANTENNA__200__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59321, instance ANTENNA__324__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59326, net ANTENNA__211__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59328, net ANTENNA__200__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59330, net ANTENNA__324__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59344, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59345, net ANTENNA__316__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59364, net ANTENNA__324__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59369, net ANTENNA__200__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59371, net ANTENNA__211__B not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59901, instance ANTENNA__287__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59903, instance ANTENNA__294__A2 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59906, instance ANTENNA__295__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59910, net ANTENNA__287__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59912, net ANTENNA__294__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59915, net ANTENNA__295__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59926, net ANTENNA__295__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59934, net ANTENNA__201__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59935, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59936, net ANTENNA__204__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59937, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59938, net ANTENNA__300__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59939, net ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59940, net ANTENNA_input1_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59943, net ANTENNA__295__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59976, net ANTENNA__295__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59979, net ANTENNA__294__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59981, net ANTENNA__287__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59986, instance ANTENNA__276__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59987, instance ANTENNA__294__A1 not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59990, instance ANTENNA__295__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59995, net ANTENNA__276__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59996, net ANTENNA__294__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 59999, net ANTENNA__295__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60009, net ANTENNA__306__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60033, net ANTENNA__295__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60039, net ANTENNA__294__A1 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60041, net ANTENNA__276__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60046, instance ANTENNA__281__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60051, net ANTENNA__281__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60059, net ANTENNA__281__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60067, net ANTENNA__281__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60071, instance ANTENNA__285__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60076, net ANTENNA__285__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60083, net ANTENNA_input11_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60088, net ANTENNA__285__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60095, net ANTENNA__285__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60106, net ANTENNA_input13_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60114, instance ANTENNA__319__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60119, net ANTENNA__319__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60125, net ANTENNA_input14_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60131, net ANTENNA__319__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60135, instance ANTENNA__312__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60140, net ANTENNA__312__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60149, net ANTENNA_input15_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60157, net ANTENNA__312__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60161, instance ANTENNA__305__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60166, net ANTENNA__305__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60186, net ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60197, net ANTENNA__305__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60202, instance ANTENNA_output17_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60207, net ANTENNA_output17_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60216, net ANTENNA_output17_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60222, instance ANTENNA_output18_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60227, net ANTENNA_output18_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60239, net ANTENNA_output18_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60245, instance ANTENNA_output19_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60250, net ANTENNA_output19_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60283, net ANTENNA_output19_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60289, instance ANTENNA__283__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60294, net ANTENNA__283__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60299, net ANTENNA_input2_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60304, net ANTENNA__283__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60309, instance ANTENNA_output20_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60314, net ANTENNA_output20_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60330, net ANTENNA_output20_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60334, instance ANTENNA_output21_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60339, net ANTENNA_output21_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60374, net ANTENNA_output21_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60379, instance ANTENNA_output22_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60384, net ANTENNA_output22_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60411, net ANTENNA_output22_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60416, instance ANTENNA_output23_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60421, net ANTENNA_output23_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60449, net ANTENNA_output23_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60453, instance ANTENNA_output24_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60458, net ANTENNA_output24_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60469, net ANTENNA_input4_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60487, net ANTENNA_output24_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60492, instance ANTENNA_output25_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60497, net ANTENNA_output25_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60515, net ANTENNA_output25_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60521, instance ANTENNA_output26_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60526, net ANTENNA_output26_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60533, net ANTENNA__203__B not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60544, net ANTENNA_output26_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60550, instance ANTENNA_output27_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60555, net ANTENNA_output27_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60567, net ANTENNA_output27_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60573, instance ANTENNA_output28_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60578, net ANTENNA_output28_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60597, net ANTENNA_output28_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60602, instance ANTENNA_output29_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60607, net ANTENNA_output29_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60630, net ANTENNA_output29_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60634, instance ANTENNA__278__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60639, net ANTENNA__278__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60645, net ANTENNA__278__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60651, net ANTENNA__278__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60656, instance ANTENNA_output30_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60661, net ANTENNA_output30_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60674, net ANTENNA_output30_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60680, instance ANTENNA_output31_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60685, net ANTENNA_output31_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60698, net ANTENNA_output31_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60704, instance ANTENNA_output32_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60709, net ANTENNA_output32_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60724, net ANTENNA__295__A2 not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60725, net ANTENNA_input16_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60726, net ANTENNA_input7_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60727, net ANTENNA_input9_A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60755, net ANTENNA_output32_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60760, instance ANTENNA__273__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60765, net ANTENNA__273__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60772, net ANTENNA__273__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60780, net ANTENNA__273__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60791, net ANTENNA_input5_A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60799, instance ANTENNA__323__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60804, net ANTENNA__323__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60821, net ANTENNA__323__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60826, instance ANTENNA__313__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60831, net ANTENNA__313__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60847, net ANTENNA__313__A not found.
+[WARNING STA-0172] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60853, instance ANTENNA__308__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60858, net ANTENNA__308__A not found.
+[WARNING STA-0174] /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.spef line 60869, net ANTENNA__308__A not found.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 2.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 2.0
+set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+check_report
+No paths found.
+check_report_end
+timing_report
+No paths found.
+timing_report_end
+min_max_report
+No paths found.
+min_max_report_end
+check_slew
+check_slew_end
+wns_report
+wns 0.00
+wns_report_end
+tns_report
+tns 0.00
+tns_report_end

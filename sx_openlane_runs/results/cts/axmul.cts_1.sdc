@@ -1,0 +1,80 @@
+###############################################################################
+# Created by write_sdc
+# Fri Oct 29 08:47:56 2021
+###############################################################################
+current_design axmul
+###############################################################################
+# Timing Constraints
+###############################################################################
+create_clock -name  -period 10.0000 
+set_input_delay 2.0000 -add_delay [get_ports {a[0]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[1]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[2]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[3]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[4]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[5]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[6]}]
+set_input_delay 2.0000 -add_delay [get_ports {a[7]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[0]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[1]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[2]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[3]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[4]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[5]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[6]}]
+set_input_delay 2.0000 -add_delay [get_ports {b[7]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[0]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[10]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[11]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[12]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[13]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[14]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[15]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[1]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[2]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[3]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[4]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[5]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[6]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[7]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[8]}]
+set_output_delay 2.0000 -add_delay [get_ports {c[9]}]
+###############################################################################
+# Environment
+###############################################################################
+set_load -pin_load 0.0177 [get_ports {c[15]}]
+set_load -pin_load 0.0177 [get_ports {c[14]}]
+set_load -pin_load 0.0177 [get_ports {c[13]}]
+set_load -pin_load 0.0177 [get_ports {c[12]}]
+set_load -pin_load 0.0177 [get_ports {c[11]}]
+set_load -pin_load 0.0177 [get_ports {c[10]}]
+set_load -pin_load 0.0177 [get_ports {c[9]}]
+set_load -pin_load 0.0177 [get_ports {c[8]}]
+set_load -pin_load 0.0177 [get_ports {c[7]}]
+set_load -pin_load 0.0177 [get_ports {c[6]}]
+set_load -pin_load 0.0177 [get_ports {c[5]}]
+set_load -pin_load 0.0177 [get_ports {c[4]}]
+set_load -pin_load 0.0177 [get_ports {c[3]}]
+set_load -pin_load 0.0177 [get_ports {c[2]}]
+set_load -pin_load 0.0177 [get_ports {c[1]}]
+set_load -pin_load 0.0177 [get_ports {c[0]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[7]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[6]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[5]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[4]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[3]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[2]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[1]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {a[0]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[7]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[6]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[5]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[4]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[3]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[2]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[1]}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_8 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {b[0]}]
+###############################################################################
+# Design Rules
+###############################################################################
+set_max_fanout 5.0000 [current_design]

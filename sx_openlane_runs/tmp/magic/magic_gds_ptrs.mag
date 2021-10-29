@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 180000 120000
+string GDS_FILE /openLANE_flow/designs/axmul/runs/run1/results/magic/axmul.gds
+string GDS_END 6204722
+string GDS_START 302010
+<< end >>

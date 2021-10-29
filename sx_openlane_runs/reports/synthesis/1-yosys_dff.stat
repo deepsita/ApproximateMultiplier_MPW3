@@ -1,0 +1,24 @@
+
+21. Printing statistics.
+
+=== axmul ===
+
+   Number of wires:                260
+   Number of wire bits:            289
+   Number of public wires:           4
+   Number of public wire bits:      33
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                264
+     $_ANDNOT_                      89
+     $_AND_                         49
+     $_NAND_                        23
+     $_NOR_                          4
+     $_NOT_                          3
+     $_ORNOT_                       22
+     $_OR_                          31
+     $_XNOR_                         4
+     $_XOR_                         37
+     sky130_fd_sc_hd__mux2_1         2
+

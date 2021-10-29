@@ -1,0 +1,20 @@
+Using Techfile: /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+Using DEF file: /openLANE_flow/designs/axmul/runs/run1/results/routing/22-axmul.def
+Design Name: axmul
+Output GDS will be: /openLANE_flow/designs/axmul/runs/run1/results/klayout/axmul.gds
+Extra GDSes:
+/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_12.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_8.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fakediode_2.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__decap_12.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_4.gds
+[INFO] Clearing cells...
+[INFO] Merging GDS files...
+	/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_12.gds
+	/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_8.gds
+	/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+	/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fakediode_2.gds
+	/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__decap_12.gds
+	/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_4.gds
+[INFO] Copying toplevel cell 'axmul'
+WARNING: no fill config file specified
+[INFO] Checking for missing GDS...
+[INFO] All LEF cells have matching GDS cells
+[INFO] Writing out GDS '/openLANE_flow/designs/axmul/runs/run1/results/klayout/axmul.gds'
+Done

@@ -1,0 +1,20 @@
+
+82. Executing CHECK pass (checking for obvious problems).
+Checking module axmul...
+Warning: Wire axmul.\c [15] is used but has no driver.
+Warning: Wire axmul.\c [14] is used but has no driver.
+Warning: Wire axmul.\c [13] is used but has no driver.
+Warning: Wire axmul.\c [12] is used but has no driver.
+Warning: Wire axmul.\c [11] is used but has no driver.
+Warning: Wire axmul.\c [10] is used but has no driver.
+Warning: Wire axmul.\c [9] is used but has no driver.
+Warning: Wire axmul.\c [8] is used but has no driver.
+Warning: Wire axmul.\c [7] is used but has no driver.
+Warning: Wire axmul.\c [6] is used but has no driver.
+Warning: Wire axmul.\c [5] is used but has no driver.
+Warning: Wire axmul.\c [4] is used but has no driver.
+Warning: Wire axmul.\c [3] is used but has no driver.
+Warning: Wire axmul.\c [2] is used but has no driver.
+Warning: Wire axmul.\c [1] is used but has no driver.
+Warning: Wire axmul.\c [0] is used but has no driver.
+Found and reported 16 problems.

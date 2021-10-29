@@ -1,0 +1,76 @@
+2021-10-29 08:51:59 - [INFO] - {{EXTRACTING GDS}} Extracting GDS files in: /soft/ProgramFiles/caravel_user_project
+2021-10-29 08:52:00 - [INFO] - {{Project GDS Info}} user_project_wrapper: da4484595ac37a7d589453a40bd9c0a22135ca16
+2021-10-29 08:52:00 - [INFO] - {{Tools Info}} KLayout: v0.27.3 | Magic: v8.3.220
+2021-10-29 08:52:00 - [INFO] - {{PDKs Info}} Open PDKs: 6c05bc48dc88784f9d98b89d6791cdfd91526676 | Skywater PDK: c094b6e83a4f9298e47f696ec5a7fd53535ec5eb
+2021-10-29 08:52:00 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/soft/ProgramFiles/caravel_user_project/precheck_results/29_OCT_2021___08_51_59/logs'
+2021-10-29 08:52:00 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: License Manifest Makefile Default Documentation Consistency XOR Magic DRC Klayout FEOL Klayout BEOL Klayout Offgrid Klayout Metal Minimum Clear Area Density Klayout Pin Label Purposes Overlapping Drawing Klayout ZeroArea
+2021-10-29 08:52:00 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 14: License
+2021-10-29 08:52:01 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:01 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2021-10-29 08:52:02 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:03 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:04 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:05 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:06 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:07 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:08 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:09 - [INFO] - An approved LICENSE (Apache-2.0) was found in /soft/ProgramFiles/caravel_user_project.
+2021-10-29 08:52:09 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2021-10-29 08:52:11 - [INFO] - {{SPDX COMPLIANCE CHECK PASSED}} Project is compliant with the SPDX Standard
+2021-10-29 08:52:11 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 14: Manifest
+2021-10-29 08:52:12 - [INFO] - Caravel version matches, for the full report check: /soft/ProgramFiles/caravel_user_project/precheck_results/29_OCT_2021___08_51_59/logs/manifest_check.log
+2021-10-29 08:52:12 - [INFO] - {{MANIFEST CHECKS PASSED}} Manifest Checks Passed. Caravel version matches.
+2021-10-29 08:52:12 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 14: Makefile
+2021-10-29 08:52:12 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2021-10-29 08:52:12 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 14: Default
+2021-10-29 08:52:12 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2021-10-29 08:52:12 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2021-10-29 08:52:12 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 14: Documentation
+2021-10-29 08:52:14 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2021-10-29 08:52:14 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 14: Consistency
+2021-10-29 08:52:14 - [INFO] - Trying to get file https://raw.githubusercontent.com/efabless/caravel/f80b2fea4aa53d68baec2160f6640b9e3b8d86e5/verilog/rtl/__user_project_wrapper.v
+2021-10-29 08:52:14 - [INFO] - Got file https://raw.githubusercontent.com/efabless/caravel/f80b2fea4aa53d68baec2160f6640b9e3b8d86e5/verilog/rtl/__user_project_wrapper.v
+2021-10-29 08:52:14 - [INFO] - Trying to get file https://raw.githubusercontent.com/efabless/caravel/f80b2fea4aa53d68baec2160f6640b9e3b8d86e5/verilog/rtl/defines.v
+2021-10-29 08:52:19 - [INFO] - Got file https://raw.githubusercontent.com/efabless/caravel/f80b2fea4aa53d68baec2160f6640b9e3b8d86e5/verilog/rtl/defines.v
+2021-10-29 08:52:25 - [INFO] - HIERARCHY CHECK PASSED: Module user_project_wrapper is instantiated in caravel. 
+2021-10-29 08:52:25 - [INFO] - COMPLEXITY CHECK PASSED: Netlist caravel contains at least 8 instances (46 instances). 
+2021-10-29 08:52:25 - [INFO] - MODELING CHECK PASSED: Netlist caravel is structural.
+2021-10-29 08:52:25 - [INFO] - SUBMODULE HOOKS CHECK PASSED: All module ports for user_project_wrapper are correctly connected in the top level netlist caravel.
+2021-10-29 08:52:25 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in caravel are connected to power
+2021-10-29 08:52:25 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} caravel netlist passed all consistency checks.
+2021-10-29 08:52:25 - [INFO] - PORTS CHECK PASSED: Netlist user_project_wrapper ports match the golden wrapper ports
+2021-10-29 08:52:25 - [INFO] - COMPLEXITY CHECK PASSED: Netlist user_project_wrapper contains at least 1 instances (1 instances). 
+2021-10-29 08:52:25 - [INFO] - MODELING CHECK PASSED: Netlist user_project_wrapper is structural.
+2021-10-29 08:52:25 - [INFO] - LAYOUT CHECK PASSED: The GDS layout for user_project_wrapper matches the provided structural netlist.
+2021-10-29 08:52:25 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in user_project_wrapper are connected to power
+2021-10-29 08:52:25 - [INFO] - PORT TYPES CHECK PASSED: Netlist user_project_wrapper port types match the golden wrapper port types.
+2021-10-29 08:52:25 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} user_project_wrapper netlist passed all consistency checks.
+2021-10-29 08:52:25 - [INFO] - {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+2021-10-29 08:52:25 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 14: XOR
+2021-10-29 08:52:25 - [INFO] - Trying to get file https://raw.githubusercontent.com/efabless/caravel/f80b2fea4aa53d68baec2160f6640b9e3b8d86e5/gds/user_project_wrapper_empty.gds.gz
+2021-10-29 08:52:26 - [INFO] - Got file https://raw.githubusercontent.com/efabless/caravel/f80b2fea4aa53d68baec2160f6640b9e3b8d86e5/gds/user_project_wrapper_empty.gds.gz
+2021-10-29 08:52:31 - [INFO] - {XOR CHECK UPDATE} Total XOR differences: 0, for more details view /soft/ProgramFiles/caravel_user_project/precheck_results/29_OCT_2021___08_51_59/outputs/user_project_wrapper.xor.gds
+2021-10-29 08:52:31 - [INFO] - {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+2021-10-29 08:52:31 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 14: Magic DRC
+2021-10-29 08:53:34 - [INFO] - 0 DRC violations
+2021-10-29 08:53:34 - [INFO] - {{MAGIC DRC CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:53:34 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 14: Klayout FEOL
+2021-10-29 08:53:42 - [INFO] - No DRC Violations found
+2021-10-29 08:53:42 - [INFO] - {{Klayout FEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:53:42 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 14: Klayout BEOL
+2021-10-29 08:56:30 - [INFO] - No DRC Violations found
+2021-10-29 08:56:30 - [INFO] - {{Klayout BEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:56:30 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 14: Klayout Offgrid
+2021-10-29 08:56:44 - [INFO] - No DRC Violations found
+2021-10-29 08:56:44 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:56:44 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 14: Klayout Metal Minimum Clear Area Density
+2021-10-29 08:56:48 - [INFO] - No DRC Violations found
+2021-10-29 08:56:48 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:56:48 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 14: Klayout Pin Label Purposes Overlapping Drawing
+2021-10-29 08:56:51 - [INFO] - No DRC Violations found
+2021-10-29 08:56:51 - [INFO] - {{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:56:51 - [INFO] - {{STEP UPDATE}} Executing Check 14 of 14: Klayout ZeroArea
+2021-10-29 08:56:53 - [INFO] - No DRC Violations found
+2021-10-29 08:56:53 - [INFO] - {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-10-29 08:56:53 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/soft/ProgramFiles/caravel_user_project/precheck_results/29_OCT_2021___08_51_59/logs'
+2021-10-29 08:56:53 - [INFO] - {{SUCCESS}} All Checks Passed !!!

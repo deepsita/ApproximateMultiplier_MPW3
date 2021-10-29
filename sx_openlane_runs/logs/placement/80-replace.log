@@ -1,0 +1,103 @@
+OpenROAD 1 fb8ae93b6c7a5eb0e6fac83360a8a48d76c41885
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openLANE_flow/designs/axmul/runs/run1/tmp/merged_unpadded.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/axmul/runs/run1/tmp/merged_unpadded.lef at line 68110.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openLANE_flow/designs/axmul/runs/run1/tmp/merged_unpadded.lef
+[INFO ODB-0127] Reading DEF file: /openLANE_flow/designs/axmul/runs/run1/tmp/floorplan/6-pdn.def
+[INFO ODB-0128] Design: axmul
+[INFO ODB-0130]     Created 34 pins.
+[INFO ODB-0131]     Created 7878 components and 17600 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 16960 connections.
+[INFO ODB-0133]     Created 194 nets and 640 connections.
+[INFO ODB-0134] Finished DEF file: /openLANE_flow/designs/axmul/runs/run1/tmp/floorplan/6-pdn.def
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 5520 10880
+[INFO GPL-0005] CoreAreaUxUy: 894240 587520
+[INFO GPL-0006] NumInstances: 7878
+[INFO GPL-0007] NumPlaceInstances: 178
+[INFO GPL-0008] NumFixedInstances: 7700
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 194
+[INFO GPL-0011] NumPins: 672
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 900000 600000
+[INFO GPL-0014] CoreAreaLxLy: 5520 10880
+[INFO GPL-0015] CoreAreaUxUy: 894240 587520
+[INFO GPL-0016] CoreArea: 512471500800
+[INFO GPL-0017] NonPlaceInstsArea: 10695257600
+[INFO GPL-0018] PlaceInstsArea: 1342537600
+[INFO GPL-0019] Util(%): 0.27
+[INFO GPL-0020] StdInstsArea: 1342537600
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG Error: 0.00000011 HPWL: 25160030
+[InitialPlace]  Iter: 2 CG Error: 0.00000010 HPWL: 18932014
+[InitialPlace]  Iter: 3 CG Error: 0.00000003 HPWL: 18925976
+[InitialPlace]  Iter: 4 CG Error: 0.00000006 HPWL: 18928215
+[InitialPlace]  Iter: 5 CG Error: 0.00000008 HPWL: 18927993
+[INFO GPL-0031] FillerInit: NumGCells: 37271
+[INFO GPL-0032] FillerInit: NumGNets: 194
+[INFO GPL-0033] FillerInit: NumGPins: 672
+[INFO GPL-0023] TargetDensity: 0.55
+[INFO GPL-0024] AveragePlaceInstArea: 7542346
+[INFO GPL-0025] IdealBinArea: 13713356
+[INFO GPL-0026] IdealBinCnt: 37370
+[INFO GPL-0027] TotalBinArea: 512471500800
+[INFO GPL-0028] BinCnt: 64 64
+[INFO GPL-0029] BinSize: 13887 9010
+[INFO GPL-0030] NumBins: 4096
+[NesterovSolve] Iter: 1 overflow: 0.614702 HPWL: 20625107
+[INFO GPL-0100] worst slack 1e+30
+[WARNING GPL-0102] No slacks found. Timing-driven mode disabled.
+[NesterovSolve] Snapshot saved at iter = 1
+[NesterovSolve] Iter: 10 overflow: 0.420473 HPWL: 18931437
+[NesterovSolve] Iter: 20 overflow: 0.391544 HPWL: 18957440
+[NesterovSolve] Iter: 30 overflow: 0.37596 HPWL: 18974093
+[NesterovSolve] Iter: 40 overflow: 0.363193 HPWL: 18995785
+[NesterovSolve] Iter: 50 overflow: 0.361608 HPWL: 18999875
+[NesterovSolve] Finished with Overflow: 0.368807
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 2.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 2.0
+set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+check_report
+No paths found.
+check_report_end
+timing_report
+No paths found.
+timing_report_end
+min_max_report
+No paths found.
+min_max_report_end
+wns_report
+wns 0.00
+wns_report_end
+tns_report
+tns 0.00
+tns_report_end

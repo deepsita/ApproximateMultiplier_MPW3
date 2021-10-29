@@ -1,0 +1,1 @@
+lvs {/openLANE_flow/designs/axmul/runs/run1/results/magic/axmul.spice axmul} {/openLANE_flow/designs/axmul/runs/run1/results/lvs/axmul.lvs.powered.v axmul} /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/axmul/runs/run1/results/lvs/axmul.lvs.lef.log -json
