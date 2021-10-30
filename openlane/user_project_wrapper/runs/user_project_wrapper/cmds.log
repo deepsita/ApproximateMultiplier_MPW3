@@ -1,0 +1,128 @@
+Fri Oct 29 08:41:00 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/extract_metal_layers.py -t /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/met_layers_list.txt"
+
+Fri Oct 29 08:41:01 UTC 2021 - Executing "/openLANE_flow/scripts/mergeLef.py -i /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef {/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fill_12.lef /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fill_8.lef /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__decap_12.lef /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fakediode_2.lef} -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Fri Oct 29 08:41:01 UTC 2021 - Executing "/openLANE_flow/scripts/mergeLef.py -i /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged_unpadded.lef /project/openlane/user_project_wrapper/../../lef/user_proj_example.lef -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Fri Oct 29 08:41:01 UTC 2021 - Executing "/openLANE_flow/scripts/libtrim.pl /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/trimmed.lib.exclude.list > /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/trimmed.lib"
+
+Fri Oct 29 08:41:01 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/new_tracks.py -i /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/config.tracks"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "echo {openlane 2021.09.19_20.25.16} > /project/openlane/user_project_wrapper/runs/user_project_wrapper/OPENLANE_VERSION"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "yosys -c /openLANE_flow/scripts/synth_top.tcl -l /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/synthesis/1-yosys.log |& tee >&@stdout"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/synthesis\/user_project_wrapper.synthesis.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "sed -i /defparam/d /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis/user_project_wrapper.synthesis.v"
+
+Fri Oct 29 08:41:02 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/synthesis/2-opensta"
+
+Fri Oct 29 08:41:05 UTC 2021 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Fri Oct 29 08:41:05 UTC 2021 - Executing "yosys -c /openLANE_flow/scripts/synth_top.tcl -l /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/synthesis/3-yosys.log |& tee >&@stdout"
+
+Fri Oct 29 08:41:05 UTC 2021 - Executing "sed -i /defparam/d /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/yosys.pg_define.v"
+
+Fri Oct 29 08:41:05 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/floorplan/4-verilog2def.openroad.log"
+
+Fri Oct 29 08:41:06 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/io_place.py --input-lef /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef --input-def /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/4-verilog2def_openroad.def --config /soft/ProgramFiles/caravel_user_project/caravel/openlane/user_project_wrapper_empty/pin_order.cfg --hor-layer 4 --ver-layer 3 --ver-width-mult 4 --hor-width-mult 4 --hor-extension 4.8 --ver-extension 4.8 --length 2.4 -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/5-ioPlacer.def |& tee /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/floorplan/5-place_io_ol.log >&@stdout"
+
+Fri Oct 29 08:41:08 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/manual_macro_place.py -l /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef -id /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/5-ioPlacer.def -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/5-ioPlacer.macro_placement.def -c /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/macro_placement.cfg -f |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/6-macro_placement.log"
+
+Fri Oct 29 08:41:09 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_pdn.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/floorplan/8-pdn.log"
+
+Fri Oct 29 08:41:10 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_pdn.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/floorplan/10-pdn.log"
+
+Fri Oct 29 08:41:12 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_pdn.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/floorplan/12-pdn.log"
+
+Fri Oct 29 08:41:14 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_pdn.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/floorplan/14-pdn.log"
+
+Fri Oct 29 08:41:15 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/random_place.py --lef /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged_unpadded.lef --input-def /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/13-pdn.def --output-def /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/15-replace.def |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/placement/15-replace.log"
+
+Fri Oct 29 08:41:16 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/placement/16-opendp.log"
+
+Fri Oct 29 08:41:18 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_resizer_routing_timing.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/placement/17-resizer_timing.log"
+
+Fri Oct 29 08:41:21 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/18-write_verilog.log"
+
+Fri Oct 29 08:41:22 UTC 2021 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/synthesis\/user_project_wrapper.synthesis_optimized.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:41:22 UTC 2021 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/synthesis\/user_project_wrapper.synthesis.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:41:22 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/synthesis/19-opensta_post_resizer_routing_timing"
+
+Fri Oct 29 08:41:25 UTC 2021 - Executing "cp /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/17-resizer_timing.def /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/20-addspacers.def"
+
+Fri Oct 29 08:41:25 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/add_def_obstructions.py --input-def /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/20-addspacers.def --lef /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef --obstructions {met5 0 0 2920 3520} --output /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/20-addspacers.obs.def |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/obs.log"
+
+Fri Oct 29 08:41:26 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/placement/21-opendp.log"
+
+Fri Oct 29 08:41:27 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_groute.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/routing/22-fastroute.log"
+
+Fri Oct 29 08:41:31 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/23-write_verilog.log"
+
+Fri Oct 29 08:41:32 UTC 2021 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/synthesis\/user_project_wrapper.synthesis_preroute.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:41:32 UTC 2021 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/synthesis\/user_project_wrapper.synthesis_optimized.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:41:32 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_droute.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/routing/24-tritonRoute.log"
+
+Fri Oct 29 08:42:46 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/tr2klayout.py -i /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/routing/24-tritonRoute.drc -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/routing/24-tritonRoute.klayout.xml --design-name user_project_wrapper"
+
+Fri Oct 29 08:42:47 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_rcx.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/routing/25-spef_extraction.log"
+
+Fri Oct 29 08:42:49 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/synthesis/26-opensta_spef"
+
+Fri Oct 29 08:42:51 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/write_powered_def.py -d /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/23-user_project_wrapper.def -l /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef --power-port vccd1 --ground-port vssd1 --powered-netlist /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/yosys.pg_define.v -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/27-user_project_wrapper.powered.def |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/lvs/27-write_powered_verilog.log"
+
+Fri Oct 29 08:42:53 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/28-write_verilog.log"
+
+Fri Oct 29 08:42:54 UTC 2021 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/lvs\/user_project_wrapper.lvs.powered.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:42:54 UTC 2021 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/project\/openlane\/user_project_wrapper\/runs\/user_project_wrapper\/results\/synthesis\/user_project_wrapper.synthesis_preroute.v/} /project/openlane/user_project_wrapper/runs/user_project_wrapper/config.tcl"
+
+Fri Oct 29 08:42:54 UTC 2021 - Executing "magic -noconsole -dnull -rcfile /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/mag_gds.tcl </dev/null |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/29-magic.log"
+
+Fri Oct 29 08:42:57 UTC 2021 - Executing "magic -noconsole -dnull -rcfile /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/gds_pointers.tcl </dev/null |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/30-magic.mag.gds_ptrs.log"
+
+Fri Oct 29 08:42:59 UTC 2021 - Executing "sed -i -n {/^<< properties >>/,/^<< end >>/p} /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/magic/magic_gds_ptrs.mag"
+
+Fri Oct 29 08:42:59 UTC 2021 - Executing "magic -noconsole -dnull -rcfile /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/lef.tcl </dev/null |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/31-magic.lef.log"
+
+Fri Oct 29 08:43:00 UTC 2021 - Executing "magic -noconsole -dnull -rcfile /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/maglef.tcl </dev/null |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/32-magic.maglef.log"
+
+Fri Oct 29 08:43:00 UTC 2021 - Executing "bash /openLANE_flow/scripts/klayout/def2gds.sh /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/klayout/sky130A.lyt /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/23-user_project_wrapper.def user_project_wrapper /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/klayout/user_project_wrapper.gds {/soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_12.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_8.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fakediode_2.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__decap_12.gds /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fill_4.gds  /project/openlane/user_project_wrapper/../../gds/user_proj_example.gds} |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/klayout/33-klayout.log"
+
+Fri Oct 29 08:43:02 UTC 2021 - Executing "bash /openLANE_flow/scripts/klayout/xor.sh /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/magic/user_project_wrapper.gds /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/klayout/user_project_wrapper.gds user_project_wrapper /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/klayout/user_project_wrapper.xor.gds |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/klayout/34-klayout.xor.log"
+
+Fri Oct 29 08:43:26 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/parse_klayout_xor_log.py -l /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/klayout/34-klayout.xor.log -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/klayout/34-klayout.xor.rpt"
+
+Fri Oct 29 08:43:27 UTC 2021 - Executing "bash /openLANE_flow/scripts/klayout/xor.sh /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/magic/user_project_wrapper.gds /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/klayout/user_project_wrapper.gds user_project_wrapper /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/klayout/user_project_wrapper.xor.xml |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/klayout/35-klayout.xor.log"
+
+Fri Oct 29 08:43:52 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/parse_klayout_xor_log.py -l /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/klayout/35-klayout.xor.log -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/klayout/35-klayout.xor.rpt"
+
+Fri Oct 29 08:43:53 UTC 2021 - Executing "magic -noconsole -dnull -rcfile /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/magic/sky130A.magicrc /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/magic_spice.tcl </dev/null |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/36-magic_spice.log"
+
+Fri Oct 29 08:44:00 UTC 2021 - Executing "netgen -batch source /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/lvs/setup_file.lef.lvs |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/lvs/37-lvs.lef.log"
+
+Fri Oct 29 08:44:00 UTC 2021 - Executing "magic -noconsole -dnull -rcfile /soft/ProgramFiles/caravel_user_project/openlane_caravel/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/drc.tcl </dev/null |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/38-magic.drc.log"
+
+Fri Oct 29 08:45:10 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/magic_drc_to_tcl.py -i /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.drc -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.drc.tcl"
+
+Fri Oct 29 08:45:11 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/magic_drc_to_tr_drc.py -i /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.drc -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.tr.drc"
+
+Fri Oct 29 08:45:13 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/tr2klayout.py -i /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.tr.drc -o /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.drc.klayout.xml --design-name user_project_wrapper"
+
+Fri Oct 29 08:45:14 UTC 2021 - Executing "openroad -python /openLANE_flow/scripts/magic_drc_to_rdb.py --magic_drc_in /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.drc --rdb_out /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/magic/38-magic.drc.rdb"
+
+Fri Oct 29 08:45:15 UTC 2021 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_antenna_check.tcl |& tee >&@stdout /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/routing/39-or_antenna.log"
+
+Fri Oct 29 08:45:16 UTC 2021 - Executing "mv -f /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/routing/antenna.rpt /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/routing/40-antenna.rpt"
+
+Fri Oct 29 08:45:16 UTC 2021 - Executing "openroad -python /openLANE_flow/generate_reports.py -d /project/openlane/user_project_wrapper --design_name user_project_wrapper --tag user_project_wrapper --output_file /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/final_summary_report.csv --man_report /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/manufacturability_report.rpt --runtime_summary /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/runtime_summary_report.rpt --run_path /project/openlane/user_project_wrapper/runs/user_project_wrapper"
+
